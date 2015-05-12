@@ -1,4 +1,4 @@
-class Api::V1::CatsController < ApplicationController
+class Api::V1::CatsController <  Api::V1::ApiController
   before_action :set_cat, only: [:show, :edit, :update, :destroy]
   load_and_authorize_resource
 

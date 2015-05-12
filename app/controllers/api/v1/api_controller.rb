@@ -1,6 +1,6 @@
 module Api
   class Api::V1::ApiController < ApplicationController
-    skip_before_filter :verify_authenticity_token
+    #skip_before_filter :verify_authenticity_token
     protect_from_forgery with: :null_session, :if => Proc.new { |c| c.request.format == 'application/json' }
     acts_as_token_authentication_handler_for User
 

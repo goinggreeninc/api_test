@@ -1,4 +1,4 @@
-class Api::V1::RegistrationsController <  Devise::RegistrationsController
+class Api::V1::RegistrationsController < Devise::RegistrationsController
 
   def create
     @user = User.create(user_params)
