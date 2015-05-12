@@ -1,7 +1,7 @@
-ruby '2.1.0'
+ruby '2.2.0'
 source 'https://rubygems.org'
 
-gem 'rails', '4.0.3'
+gem 'rails', '4.2.0'
 gem 'sqlite3'
 gem 'devise'
 gem 'simple_token_authentication'
